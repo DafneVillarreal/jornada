@@ -1,0 +1,52 @@
+#calendarContainer,
+#organizerContainer {
+    float: left;
+    margin: 10px;
+    text-align: center;
+    margin-bottom: 20px; /* between paragraphs */
+}
+
+#calendario_lista {
+    list-style-type: none;
+    margin: 0px;
+    padding: 4px;
+    text-align: left;
+}
+#fecha_calendario_disponible{
+    width: 50px;
+    height: 20px;
+    font-size: 20px;
+    line-height: 12px;
+    color: #000000;
+}
+#fecha_calendario_no_disponible{
+    width: 50px;
+    height: 20px;
+    font-size: 20px;
+    line-height: 12px;
+    color: #654b4b;
+}
+#calendario_ul_lista_hora {
+        font-size: 12px;
+        text-align: left;
+        line-height: 14px;
+        color: #921843;
+}
+#calendario_ul_lista_fecha {
+    font-size: 12px;
+    line-height: 14px;
+    text-align: justify;
+    padding-left: inherit;
+}
+
+.astext {
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+    cursor: pointer;
+}
+
+.astext:hover {
+    background: rgb(232, 190, 206);;
+}

@@ -1,0 +1,464 @@
+﻿<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <title>iLabTDI – Jornada del Innovador</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="author" content="iLabTDI">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1">
+        <meta name="description" content="Litho is a clean and modern design, BootStrap 5 responsive, business and portfolio multipurpose HTML5 template with 37+ ready homepage demos.">
+        <!-- favicon icon -->
+        <link rel="shortcut icon" href="images/favicon.png">
+        <link rel="apple-touch-icon" href="images/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+        <!-- style sheets and font icons  -->
+        <link rel="stylesheet" type="text/css" href="css/font-icons.min.css">
+        <link rel="stylesheet" type="text/css" href="css/theme-vendors.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+
+
+        <link rel="stylesheet" type="text/css" href="css/calendarorganizer.min.css"/> <!--MMTZ añadido-->
+
+
+        <!--FIN MMTZ añadido-->
+        <script src="js/DiasDatos.js"></script> <!--Script importante que contiene los datos del calendario-->
+
+
+
+        <!--MMTZ añadido-->
+        <style type="text/css">
+            #calendarContainer,
+            #organizerContainer {
+            float: left;
+            margin: 10px;
+            text-align: center;
+            margin-bottom: 20px; /* between paragraphs */
+            }
+
+            #calendario_lista {
+                list-style-type: none;
+                margin: 0px;
+                padding: 4px;
+                text-align: left;
+            }
+            #fecha_calendario_disponible{
+                width: 50px;
+                height: 20px;
+                font-size: 20px;
+                line-height: 12px;
+                color: #000000;
+            }
+            #fecha_calendario_no_disponible{
+                width: 50px;
+                height: 20px;
+                font-size: 20px;
+                line-height: 12px;
+                color: #654b4b;
+            }
+            #calendario_ul_lista_hora {
+                font-size: 12px;
+                text-align: left;
+                line-height: 14px;
+                color: #921843;
+            }
+            #calendario_ul_lista_fecha {
+                font-size: 12px;
+                line-height: 14px;
+                text-align: justify;
+                padding-left: inherit;
+            }
+
+            .astext {
+                background:none;
+                border:none;
+                margin:0;
+                padding:0;
+                cursor: pointer;
+                
+            }
+            .astext:hover {
+                background: rgb(232, 190, 206);;
+            }
+
+        </style>
+
+    <style>
+
+    </style>
+
+        <!--MMTZ añadido-->
+
+    </head>
+    <body data-mobile-nav-style="classic">
+        <!--start header-->
+        <header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+                        <!-- start navigation -->
+                        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent header-light fixed-top header-reverse-scroll">
+                            <div class="container-fluid nav-header-container">
+                                <div class="col-auto col-sm-6 col-lg-2 me-auto ps-lg-0">
+                                    <a class="navbar-brand" href="home.php.html">
+                                        <img src="images/logo-golden-white@2x.png" data-at2x="images/logo-golden-white@2x.png" class="default-logo" alt="" width="111" height="36">
+                                        <img src="images/logo-golden-black@2x.png" data-at2x="images/logo-golden-black@2x.png" class="alt-logo" alt="" width="0" height="0">
+                                        <img src="images/logo-golden-black@2x.png" data-at2x="images/logo-golden-black@2x.png" class="mobile-logo" alt="" width="0" height="0">
+                                    </a>
+                                </div>
+                                <div class="col-auto col-lg-8 menu-order px-lg-0">
+                                    <button class="navbar-toggler float-end collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation" aria-expanded="false">
+                                        <span class="navbar-toggler-line"></span>
+                                        <span class="navbar-toggler-line"></span>
+                                        <span class="navbar-toggler-line"></span>
+                                        <span class="navbar-toggler-line"></span>
+                                    </button>
+                                    <div class="navbar-collapse justify-content-center collapse" id="navbarNav" style="">
+                                        <ul class="navbar-nav alt-font">
+                                            <li class="nav-item dropdown">
+                                                <a href="home.html" class="nav-link text-uppercase">Inicio</a>
+                                            </li>
+
+                                            <li class="nav-item dropdown">
+                                                <a href="torneos.html" class="nav-link text-uppercase">Torneo de Videojuegos</a>
+                                            </li>
+
+                                            <li class="nav-item dropdown">
+                                                <a href="TalentShow.html" class="nav-link text-uppercase">Talent Show</a>
+                                            </li>
+
+                                            <li class="nav-item dropdown">
+                                                <a href="Hackatlon.html" class="nav-link text-uppercase">Hackatlon</a>
+                                            </li>
+
+                                            <li class="nav-item dropdown">
+                                                <a href="programa.html" class="nav-link text-uppercase">Horario</a>
+                                            </li>
+                                            
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-auto col-lg-2 text-end pe-0 font-size-0">
+                                    
+                                </div>
+                            </div>
+                        </nav>
+            <!-- end navigation -->
+        </header>
+        <!-- end header -->
+
+
+
+
+
+        <!-- start hero section -->
+        <section class="parallax wow animate__fadeIn" data-parallax-background-ratio="0.5" style="background-image: url(&quot;images/torneo/gamingbackground1.jpg&quot;); visibility: visible; animation-name: fadeIn;">
+            <div class="opacity-medium bg-dark-slate-blue"></div>
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-12 col-xl-7 col-md-8 col-sm-10 position-relative text-center text-md-start sm-margin-30px-bottom">
+                        <h4 class="alt-font font-weight-600 text-white mb-0">Únete a nuestro torneo gaming y demuestra tus habilidades</h4>
+
+                        <br>
+                        <h6 class="alt-font cd-headline zoom text-white margin-seven-bottom">
+                            <span>Participa en diferentes juegos y conviértete en el campeón de CUCEI en</span>
+                            <span class="cd-words-wrapper text-base-color font-weight-500" style="width: 75.3625px;">                                
+                                <b class="is-visible">COD Mobile</b>
+                                <b class="is-hidden">Ajedréz</b>
+                                <b class="is-hidden">Fifa 19</b>
+                                <b class="is-hidden">Mario Kart 8</b>
+                                <b class="is-hidden">Super Smash Bros Ultimate</b>
+                                <b class="is-hidden">COD Mobile</b>
+                                <b class="is-hidden">Torneo de Rubik</b>
+                                <b class="is-hidden">Piedra, Papel y Tijera</b>
+                            </span>
+                        </h6>
+
+                    </div>
+                    <div class="col-12 col-xl-5 col-md-4 position-relative text-center text-md-end">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfDPpOcZEgvZdulYl2uFWKMxd9ZZRTCF18yiOYaboHnqva_-A/viewform" class="btn btn-extra-large btn-gradient-sky-blue-pink">Formulario de Inscripción</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end header -->
+
+
+
+
+
+
+
+
+
+
+        
+        <!-- start hero section -->
+        <section class="big-section wow animate__fadeIn" style="visibility: visible; animation-name: fadeIn;">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-12 text-center margin-seven-bottom">
+                        <h6 class="alt-font text-extra-dark-gray font-weight-500">TORNEOS</h6>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 tab-style-06 wow animate__fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
+                        <!-- start tab navigation -->
+                        <ul class="nav nav-tabs text-center justify-content-center">
+                            <li class="nav-item"><a class="alt-font nav-link text-uppercase active" data-bs-toggle="tab" href="#monday"><span>Viernes</span>21 de Abril</a></li>
+                            <li class="nav-item"><a class="alt-font nav-link text-uppercase" data-bs-toggle="tab" href="#tuesday"><span>Viernes</span>28 de Abril</a></li>
+                            <li class="nav-item"><a class="alt-font nav-link text-uppercase" data-bs-toggle="tab" href="#wednesday"><span>Viernes</span>5 de Mayo</a></li>
+                            <li class="nav-item"><a class="alt-font nav-link text-uppercase" data-bs-toggle="tab" href="#thursday"><span>Viernes</span>12 de Mayo</a></li>
+                        </ul>
+
+
+
+                        <!-- end tab navigation -->                        
+                        <div class="tab-content">
+                            <!-- start tab content -->
+                            <div class="tab-pane med-text fade in active show" id="monday">
+
+
+                                <div class="panel-group time-table">
+                                    <div class="panel border-color-black-transparent">
+                                        
+                                        <div class="panel-heading">
+                                            <span class="panel-time"><i class="feather icon-feather-map-pin margin-10px-right"></i>09:00 - 10:00</span>
+                                            <div class="panel-body feature-box feature-box-left-icon-middle">
+                                                
+
+                                                <div class="feature-box-icon margin-30px-right md-margin-5px-right">
+                                                    <img class="rounded-circle w-110px h-110px border-all border-width-6px border-color-white box-shadow-large margin-15px-right md-w-70px md-h-70px" src="images/torneo/FIFA.png" alt="" data-no-retina="">
+                                                </div>
+
+                                                <div class="feature-box-content last-paragraph-no-margin">
+                                                    <div class="panel-title">
+                                                        <span class="text-extra-dark-gray d-inline-block font-weight-500 margin-5px-bottom">TORNEO FIFA 19 </span>
+                                                    </div>
+                                                    <p class="w-65 lg-w-85 md-w-90 xs-w-100">¡No pierdas la oportunidad de vivir la emoción de una auténtica competencia de FIFA! Regístrate y demuestra que eres el mejor jugador de FIFA 19.</p>                           
+                                                </div>
+
+                                            </div>
+
+                                            <span class="panel-speaker"><i class="feather icon-feather-map-pin margin-10px-right"></i>Módulo Z1 y Z2 </span>
+                                        </div>
+                                    </div>
+                                    
+
+                                    <div class="panel border-color-black-transparent">
+                                        <div class="panel-heading">
+                                            <span class="panel-time"><i class="feather icon-feather-clock margin-10px-right"></i>10:00 - 12:30</span>
+                                            <div class="panel-body feature-box feature-box-left-icon-middle">
+                                                <div class="feature-box-icon margin-30px-right md-margin-5px-right">
+                                                    <img class="rounded-circle w-110px h-110px border-all border-width-6px border-color-white box-shadow-large margin-15px-right md-w-70px md-h-70px" src="images/torneo/Ajedrez.png" alt="" data-no-retina="">
+                                                </div>
+                                                <div class="feature-box-content last-paragraph-no-margin">
+                                                    <div class="panel-title">
+                                                        <span class="text-extra-dark-gray d-inline-block font-weight-500 margin-5px-bottom">TORNEO AJEDRÉZ</span>
+                                                    </div>
+                                                    <p class="w-65 lg-w-85 md-w-90 xs-w-100">Prepárate para enfrentarte a otros grandes jugadores en un ambiente competitivo pero amigable dentro de CUCEI.</p>
+                                                </div>
+                                            </div>
+                                            
+                                            <span class="panel-speaker"><i class="feather icon-feather-map-pin margin-10px-right"></i>Módulo Z1 y Z2 </span>
+                                        </div>
+                                    </div>
+ 
+                                    <div class="panel border-color-transparent">
+                                        <div class="panel-heading">
+                                            <span class="panel-time"><i class="feather icon-feather-clock margin-10px-right"></i>12:30 - 05:30</span>
+                                            <div class="panel-body feature-box feature-box-left-icon-middle">
+                                                <div class="feature-box-icon margin-30px-right md-margin-5px-right">
+                                                    <img class="rounded-circle w-110px h-110px border-all border-width-6px border-color-white box-shadow-large margin-15px-right md-w-70px md-h-70px" src="images/torneo/mariokart.png" alt="" data-no-retina="">
+                                                </div>
+                                                <div class="feature-box-content last-paragraph-no-margin">
+                                                    <div class="panel-title">
+                                                        <span class="text-extra-dark-gray d-inline-block font-weight-500 margin-5px-bottom">TORNEO DE MARIO KART 8</span>
+                                                    </div>
+                                                    <p class="w-65 lg-w-85 md-w-90 xs-w-100"> ¡No te quedes atrás y únete a la carrera por la victoria! ¿Estás listo para ser el campeón del torneo de Mario Kart 8? ¡Inscríbete ahora y prepárate para el desafío!</p>
+                                                </div>
+                                            </div>
+                                            <span class="panel-speaker"><i class="feather icon-feather-map-pin margin-10px-right"></i>Módulo Z1 y Z2 </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end tab content -->
+                            <!-- start tab content -->
+                            <div class="tab-pane med-text fade in" id="tuesday">
+                                <div class="panel-group time-table">
+                                    <div class="panel border-color-black-transparent">
+                                        <div class="panel-heading">
+                                            <span class="panel-time"><i class="feather icon-feather-clock margin-10px-right"></i>09:00 - 10:00</span>
+                                            <div class="panel-body feature-box feature-box-left-icon-middle">
+                                                <div class="feature-box-icon margin-30px-right md-margin-5px-right">
+                                                    <img class="rounded-circle w-110px h-110px border-all border-width-6px border-color-white box-shadow-large margin-15px-right md-w-70px md-h-70px" src="images/torneo/COD.png" alt="" data-no-retina="">
+                                                </div>
+                                                <div class="feature-box-content last-paragraph-no-margin">
+                                                    <div class="panel-title">
+                                                        <span class="text-extra-dark-gray d-inline-block font-weight-500 margin-5px-bottom">TORNEO COD MOBILE</span>
+                                                    </div>
+                                                    <p class="w-65 lg-w-85 md-w-90 xs-w-100">Demuestra tus habilidades de estrategia, coordinación y puntería para ganar la gloria en el campo de batalla móvil. Participa en emocionantes partidas de equipo y compite contra los mejores jugadores CUCEI.</p>                           
+                                                </div>
+                                            </div>
+                                            <span class="panel-speaker"><i class="feather icon-feather-map-pin margin-10px-right"></i>Módulo Z1 y Z2 </span>
+                                        </div>
+                                    </div>
+                                    <div class="panel border-color-black-transparent">
+                                        <div class="panel-heading">
+                                            <span class="panel-time"><i class="feather icon-feather-clock margin-10px-right"></i>10:00 - 12:30</span>
+                                            <div class="panel-body feature-box feature-box-left-icon-middle">
+                                                <div class="feature-box-icon margin-30px-right md-margin-5px-right">
+                                                    <img class="rounded-circle w-110px h-110px border-all border-width-6px border-color-white box-shadow-large margin-15px-right md-w-70px md-h-70px" src="images/torneo/rubik.png" alt="" data-no-retina="">
+                                                </div>
+                                                <div class="feature-box-content last-paragraph-no-margin">
+                                                    <div class="panel-title">
+
+                                                        <span class="text-extra-dark-gray d-inline-block font-weight-500 margin-5px-bottom">TORNEO RUBIK</span>
+                                                    </div>
+                                                    <p class="w-65 lg-w-85 md-w-90 xs-w-100"> Únete a jugadores de todo el mundo y compite para ver quién puede resolver el cubo más rápido.</p>
+                                                </div>
+                                            </div>
+                                            <span class="panel-speaker"><i class="feather icon-feather-map-pin margin-10px-right"></i>Módulo Z1 y Z2 </span>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <!-- end tab content -->
+                            <!-- start tab content -->
+                            <div class="tab-pane med-text fade in" id="wednesday">
+                                <div class="panel-group time-table">
+                                    
+                                    
+                                    <div class="panel border-color-black-transparent">
+                                        <div class="panel-heading">
+                                            <span class="panel-time"><i class="feather icon-feather-clock margin-10px-right"></i>09:00 - 10:00</span>
+                                            <div class="panel-body feature-box feature-box-left-icon-middle">
+                                                <div class="feature-box-icon margin-30px-right md-margin-5px-right">
+                                                    <img class="rounded-circle w-110px h-110px border-all border-width-6px border-color-white box-shadow-large margin-15px-right md-w-70px md-h-70px" src="images/torneo/Music.png" alt="" data-no-retina="">
+                                                </div>
+                                                <div class="feature-box-content last-paragraph-no-margin">
+                                                    <div class="panel-title">
+                                                        <span class="text-extra-dark-gray d-inline-block font-weight-500 margin-5px-bottom">Amateur Music Talent Show</span>
+                                                    </div>
+                                                    <p class="w-65 lg-w-85 md-w-90 xs-w-100">¡Muestra tus talentos musicales en nuestro talent show! Ya sea que cantes, toques un instrumento o compongas tus propias canciones, este es tu momento de brillar.</p>                           
+                                                </div>
+                                            </div>
+                                            <span class="panel-speaker"><i class="feather icon-feather-map-pin margin-10px-right"></i>Módulo Z1 y Z2 </span>
+                                        </div>
+                                    </div>
+
+                                   
+                                
+                                </div>
+                            </div>
+                            <!-- end tab content -->
+                            <!-- start tab content -->
+                            <div class="tab-pane med-text fade in" id="thursday">
+                                <div class="panel-group time-table">
+                                    <div class="panel border-color-black-transparent">
+                                        <div class="panel-heading">
+                                            <span class="panel-time"><i class="feather icon-feather-clock margin-10px-right"></i>09:00 - 10:00</span>
+                                            <div class="panel-body feature-box feature-box-left-icon-middle">
+                                                <div class="feature-box-icon margin-30px-right md-margin-5px-right">
+                                                    <img class="rounded-circle w-110px h-110px border-all border-width-6px border-color-white box-shadow-large margin-15px-right md-w-70px md-h-70px" src="images/torneo/FINAL.png" alt="" data-no-retina="">
+                                                </div>
+                                                <div class="feature-box-content last-paragraph-no-margin">
+                                                    <div class="panel-title">
+                                                        <span class="text-extra-dark-gray d-inline-block font-weight-500 margin-5px-bottom">FINAL TORNEOS DE VIDEOJUEGOS</span>
+                                                    </div>
+                                                    <p class="w-65 lg-w-85 md-w-90 xs-w-100">Los mejores jugadores de videojuegos dentro de CUCEI se enfrentarán en un evento épico para determinar quién es el campeón absolut</p>                           
+                                                </div>
+                                            </div>
+                                            <span class="panel-speaker"><i class="feather icon-feather-map-pin margin-10px-right"></i>Módulo Z1 y Z2 </span>
+                                        </div>
+                                    </div>
+                                    
+
+                                   
+
+
+                                </div>
+                            </div>
+                            <!-- end tab content -->
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col margin-2-rem-bottom md-margin-4-rem-bottom wow animate__fadeIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfDPpOcZEgvZdulYl2uFWKMxd9ZZRTCF18yiOYaboHnqva_-A/viewform" class="btn btn-extra-large btn-gradient-magenta-orange d-table d-lg-inline-block lg-margin-15px-bottom md-margin-auto-lr" style="float:right; margin-right: 10%;">Formulario de registro<i class="fas fa-arrow-right right-icon"></i></a>
+            </div>
+        </section>
+ <!-- end header -->
+
+
+        
+    <!-- start hero section -->
+    <section class="big-section">
+        <div class="container">
+            
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <iframe class="w-100 h-500px" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d933.3234388599988!2d-103.32773284390981!3d20.657624599999995!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428b38268b83b7b%3A0x12ce6c421639d8b3!2sModulo%20Z2!5e0!3m2!1ses!2smx!4v1680202144864!5m2!1ses!2smx"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end hero section -->
+        
+
+        
+        <!-- start footer -->
+        <footer class="footer-restaurant footer-light padding-60px-tb border-top border-color-black-transparent md-padding-80px-top">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-6 sm-margin-15px-bottom">
+                        <ul class="alt-font footer-horizontal-link d-flex flex-column flex-sm-row justify-content-center justify-content-md-start text-center text-uppercase text-small">
+                          <!-- end section  <li><a href="home2022.php.html" class="text-iris-blue-hover">Edición 2022</a></li> -->
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6 text-center text-md-end last-paragraph-no-margin">
+                        <p class="alt-font text-small text-uppercase">&copy; 2023 Jornada de la innovación es desarrollada por <a href="https://www.facebook.com/ILabTDI/" target="_blank" class="text-decoration-line-bottom text-extra-dark-gray text-uppercase font-weight-600">ILabTDI</a> de la <a href="http://udg.mx/" target="_blank" class="text-decoration-line-bottom text-extra-dark-gray text-uppercase font-weight-600">Universidad de Guadalajara</a></p>
+                    </div>
+                </div>
+            </div>
+        </footer>        <!-- end footer -->
+        <!-- start scroll to top -->
+        <a class="scroll-top-arrow" href="javascript:void(0);"><i class="feather icon-feather-arrow-up"></i></a>
+        <!-- end scroll to top -->
+        <!-- javascript -->
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/theme-vendors.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+
+
+
+
+        
+    </body>
+</html>
+
+
+
+
+
+
