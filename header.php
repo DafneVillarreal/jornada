@@ -16,6 +16,8 @@
             <link rel="stylesheet" type="text/css" href="css/theme-vendors.min.css">
             <link rel="stylesheet" type="text/css" href="css/style.css">
             <link rel="stylesheet" type="text/css" href="css/responsive.css">
+        
+            <link rel="stylesheet" type="text/css" href="css/slider.css">
             <link rel="stylesheet" type="text/css" href="css/calendarContainer.css">
             <link rel="stylesheet" type="text/css" href="css/_variables.scss">
             <link rel="stylesheet" type="text/css" href="css/boton_hackaton.css">
