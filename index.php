@@ -21,7 +21,7 @@
                                     <img src="images/banner_nuevo.png" class="d-block w-100" alt="Banner informativo">
                                   </div>
                                   <div class="carousel-item">
-                                    <img src="logos/ilab_logo.png" class="d-block w-100" alt="Logo iLabTDI">
+                                    <img src="images/logo_ilab.png" class="d-block w-100" alt="Logo iLabTDI">
                                   </div>
                                 </div>
                                 <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
