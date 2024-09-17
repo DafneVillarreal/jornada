@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider Example</title>
+
+    <!-- Incluye jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Incluye Slick Carousel CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+    <!-- Incluye Slick Carousel Tema CSS (opcional) -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+    <!-- Incluye Slick Carousel JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <style>
+        h1 {
+            text-align: center;
+            padding: 20px;
+            color: darkred;
+        }
+        p {
+            text-align: center;
+            color: grey;
+            padding: 20px;
+        }
+
+        .slick-slide {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .slick-slide img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        img[src$=".png"] {
+            height: 100px;         /* Establece la altura a 20px */
+            width: auto;          /* Mantiene la proporción ajustando automáticamente el ancho */
+            object-fit: contain;  /* Asegura que la imagen se ajuste correctamente dentro del contenedor */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="font-weight-bold h3 mb-5">Our Brand Partners</h1>
+        <hr />
+        <p>Responsive Slider</p>
+
+        <section class="customer-logos slider">
+            <div class="slide"><img src="logos/ilab_logo.png"></div>
+            <div class="slide"><img src="logos/cucei.png"></div>
+            <div class="slide"><img src="logos/cie_cucei_logo.png"></div>
+            <div class="slide"><img src="logos/coordinacion_logo.png"></div>
+            <div class="slide"><img src="logos/democracia_logo.png"></div>
+            <div class="slide"><img src="logos/eje_logo.png"></div>
+            <div class="slide"><img src="logos/inventores_logo.png"></div>
+            <div class="slide"><img src="logos/logo_udg.png"></div>
+            <div class="slide"><img src="logos/radio_cucei_logo.png"></div>
+            <div class="slide"><img src="logos/tribunal_logo.png"></div>
+        </section>
+
+        <p class="my-5 py-5 small">Responsive Mobile Friendly Slider for Website Partner , Sponsor Etc. <br /> Design & Develop by: <a href="https://www.linkedin.com/in/imayushshrivastava/"> @imayushshrivastava</a> Under <a href="https://www.google.com/search?q=develop+india+online"> DIO </a> </p>
+    </div>
+
+    <!-- Script para inicializar Slick -->
+    <script>
+        $(document).ready(function () {
+            $(".customer-logos").slick({
+                slidesToShow: 6,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 1500,
+                arrows: false,
+                dots: false,
+                pauseOnHover: false,
+                responsive: [
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 4
+                        }
+                    },
+                    {
+                        breakpoint: 520,
+                        settings: {
+                            slidesToShow: 3
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
+</body>
+</html>

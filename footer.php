@@ -59,47 +59,27 @@
           <!-- Grid column -->
 
           <!-- Grid column -->
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold">Products</h6>
-            <hr
-                class="mb-4 mt-0 d-inline-block mx-auto"
-                style="width: 60px; background-color: #7c4dff; height: 2px"
-                />
-            <p>
-              <a href="#!" class="text-white">MDBootstrap</a>
-            </p>
-            <p>
-              <a href="#!" class="text-white">MDWordPress</a>
-            </p>
-            <p>
-              <a href="#!" class="text-white">BrandFlow</a>
-            </p>
-            <p>
-              <a href="#!" class="text-white">Bootstrap Angular</a>
-            </p>
-          </div>
-          <!-- Grid column -->
-
-          <!-- Grid column -->
           <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
             <!-- Links -->
-            <h6 class="text-uppercase fw-bold">Useful links</h6>
+            <h6 class="text-uppercase fw-bold">Redes sociales</h6>
             <hr
                 class="mb-4 mt-0 d-inline-block mx-auto"
                 style="width: 60px; background-color: #7c4dff; height: 2px"
                 />
             <p>
-              <a href="#!" class="text-white">Your Account</a>
+              <a href="https://facebook.com/ILabTDI" class="text-white">Facebook</a>
             </p>
             <p>
-              <a href="#!" class="text-white">Become an Affiliate</a>
+              <a href="https://x.com/iLabTDI" class="text-white">X (Twitter)</a>
             </p>
             <p>
-              <a href="#!" class="text-white">Shipping Rates</a>
+              <a href="https://instagram.com/ilab_tdi" class="text-white">Instagram</a>
             </p>
             <p>
-              <a href="#!" class="text-white">Help</a>
+              <a href="https://tiktok.com/@ilabtdi" class="text-white">TikTok</a>
+            </p>
+            <p>
+              <a href="https://youtube.com/@ilabtdi7674?si=nvXER0k-YZtKq7cH" class="text-white">YouTube</a>
             </p>
           </div>
           <!-- Grid column -->
@@ -107,15 +87,14 @@
           <!-- Grid column -->
           <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
             <!-- Links -->
-            <h6 class="text-uppercase fw-bold">Contact</h6>
+            <h6 class="text-uppercase fw-bold">Contacto</h6>
             <hr
                 class="mb-4 mt-0 d-inline-block mx-auto"
                 style="width: 60px; background-color: #7c4dff; height: 2px"
                 />
-            <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
-            <p><i class="fas fa-envelope mr-3"></i> info@example.com</p>
-            <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-            <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+            <p><i class="fas fa-user-circle"></i> Hector Alejandro Gálvez López</p>
+            <p><i class="fas fa-home mr-3"></i> Av. Revolución 1500, Edificio N Laboratorio 214, Guadalajara, Jalisco. </p>
+            <p><i class="fas fa-envelope mr-3"></i> hector.galvez5325@academicos.udg.mx</p>
           </div>
           <!-- Grid column -->
         </div>

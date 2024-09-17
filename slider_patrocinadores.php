@@ -1,10 +1,11 @@
 <!-- start section -->
         <head>
         <link rel="stylesheet" href="css/slider_sponsor.css">
+        <script src="sponsors_responsive.js"></script>
         </head>
 
         <section class="half-section bg-gradient-innova wow animate__fadeIn" 
-        style="background-image: linear-gradient(to right, #9ebdc6, #467dcc);">
+        style="background-image: linear-gradient(to right, #191645, #333333);">
             <div class="container">
                 <div class="row">
                     <div class="col-12 position-relative">
@@ -14,7 +15,7 @@
                                 <!-- start slider item --><div class="swiper-slide"><a href="" target="_blank"><img alt="iLabTDI" src="logos/ilab_logo.png"></a></div>
                                 <!-- end slider item -->
 
-                                <!-- start slider item --><div class="swiper-slide"><a href="" target="_blank"><img alt="CIE" src="logos/inventores_logo.png"></a></div>
+                                <!-- start slider item --><div class="swiper-slide"><a href="" target="_blank"><img alt="Inventores" src="logos/inventores_logo.png"></a></div>
                                 <!-- end slider item -->
 
                                 <!-- start slider item --><div class="swiper-slide"><a href="" target="_blank"><img alt="CIE" src="logos/cie_cucei_logo.png"></a></div>
@@ -23,32 +24,23 @@
                                 <!-- start slider item --><div class="swiper-slide"><a href="" target="_blank"><img alt="RADIO CUCEI" src="logos/radio_cucei_logo.png"></a></div>
                                 <!-- end slider item -->
 
-                                <!-- start slider item --><div class="swiper-slide"><a href="" target="_blank"><img alt="Red universitaria de guadalajara." src="logos/udglogo.png"></a></div>
-                                <!-- end slider item -->
-
                                 <!-- start slider item --><div class="swiper-slide"><a href="" target="_blank"><img alt="CUCEI" src="logos/cucei.png"></a></div>
                                 <!-- end slider item -->
 
-                                <!-- start slider item --><div class="swiper-slide"><a href="" target="_blank"><img alt="CUCEI" src="logos/tribunal_logo.png"></a></div>
+                                <!-- start slider item --><div class="swiper-slide"><a href="" target="_blank"><img alt="Tribunal electoral" src="logos/tribunal_logo.png"></a></div>
                                 <!-- end slider item -->
                                 
-                                <!-- start slider item --><div class="swiper-slide"><a href="" target="_blank"><img alt="CUCEI" src="logos/democracia_logo.png"></a></div>
+                                <!-- start slider item --><div class="swiper-slide"><a href="" target="_blank"><img alt="Democracia" src="logos/democracia_logo.png"></a></div>
                                 <!-- end slider item -->
 
-                                <!-- start slider item --><div class="swiper-slide"><a href="" target="_blank"><img alt="CUCEI" src="logos/eje_logo.png"></a></div>
+                                <!-- start slider item --><div class="swiper-slide"><a href="" target="_blank"><img alt="EJE" src="logos/eje_logo.png"></a></div>
                                 <!-- end slider item -->
 
-                                <!-- start slider item --><div class="swiper-slide"><a href="" target="_blank"><img alt="CUCEI" src="logos/coordinacion_logo.png"></a></div>
+                                <!-- start slider item --><div class="swiper-slide"><a href="" target="_blank"><img alt="Coordinacion" src="logos/coordinacion_logo.png"></a></div>
                                 <!-- end slider item -->
                                 
                             </div>
                         </div>
-
-
-                        <!-- start slider navigation -->
-                        <div class="swiper-button-next-nav swiper-button-next rounded-circle light slider-navigation-style-07 box-shadow-double-large"><i class="feather icon-feather-arrow-right"></i></div>
-                        <div class="swiper-button-previous-nav swiper-button-prev rounded-circle light slider-navigation-style-07 box-shadow-double-large"><i class="feather icon-feather-arrow-left"></i></div>
-                        <!-- end slider navigation -->
                     </div>
                 </div>
             </div>

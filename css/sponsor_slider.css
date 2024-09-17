@@ -1,0 +1,29 @@
+h1 {
+  text-align: center;
+  padding: 20px;
+  color: darkred;
+}
+p {
+  text-align: center;
+  color: grey;
+  padding: 20px;
+}
+
+.slick-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-slide img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+img[src$=".png"] {
+  height: 100px;         /* Establece la altura a 20px */
+  width: auto;          /* Mantiene la proporción ajustando automáticamente el ancho */
+  object-fit: contain;  /* Asegura que la imagen se ajuste correctamente dentro del contenedor */
+}
