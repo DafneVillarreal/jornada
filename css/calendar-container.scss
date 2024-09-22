@@ -1,0 +1,23 @@
+.calendar-container {
+    width: 90vw;  // Ancho responsivo
+    height: 70vh; // Altura responsiva
+    max-width: 600px; // Ancho máximo
+    max-height: 80vh; // Altura máxima
+    overflow: auto; // Habilitar tanto horizontal como vertical
+    position: relative;
+    z-index: 1;
+    padding: 20px; // Espaciado interno general
+
+    @media (max-width: 600px) {
+        width: 95vw; // Ancho más pequeño en móviles
+        height: 50vh; // Cambiar altura en móviles
+        padding: 5px 20px; // Ajustar espaciado (5px arriba y abajo, 20px a los lados)
+    }
+}
+
+.styled-calendar-container {
+    width: 100%;
+    height: auto; // Dejar que la altura se ajuste al contenido
+    min-height: 100%; // Asegurarse de que ocupe al menos el 100% del contenedor
+    border: none;
+}

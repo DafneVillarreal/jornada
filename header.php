@@ -21,11 +21,9 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
     <link rel="stylesheet" type="text/css" href="css/slider.css">
-    <link rel="stylesheet" type="text/css" href="css/calendarContainer.css">
+    <link rel="stylesheet" type="text/css" href="css/calendar-container.scss">
     <link rel="stylesheet" type="text/css" href="css/_variables.scss">
     <link rel="stylesheet" type="text/css" href="css/boton_hackaton.css">
-    <link rel="stylesheet" type="text/css" href="css/nuevoCalendario.css">
-    <link rel="stylesheet" type="text/css" href="css/calendarorganizer.min.css">
 
     <!-- Scripts -->
     <script src="js/DiasDatos.js"></script>
@@ -76,7 +74,7 @@
                 <!-- Button for hackaton -->
                 <div class="col-auto col-lg-2 text-end pe-0">
                     <div class="header-button d-none d-md-inline-block">
-                        <button class="button-49" role="button" onclick="window.location.href='doc/convocatoria_hackaton.pdf'">Hackaton</button>
+                        <button class="button-49" role="button" href="#hackaton">Hackaton</button>
                     </div>
                 </div>
             </div>
